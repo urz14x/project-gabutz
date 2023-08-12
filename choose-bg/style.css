@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #f7f7fe;
+  transition: 0.35s;
+}
+.circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.circle:hover {
+  transform: scale(1.5);
+}
+.circle-1 {
+  background: green;
+}
+.circle-2 {
+  background: skyblue;
+}
+.circle-3 {
+  background: dodgerblue;
+}
+.circle-4 {
+  background: purple;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+section h1 {
+  font-family: "Sofia Pro Light";
+  color: #212121;
+  margin-bottom: 16px;
+}
+section .circle-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  background-color: #fff;
+  padding: 20px 45px;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 48px -30px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 48px -30px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 48px -30px rgba(0, 0, 0, 0.75);
+}
